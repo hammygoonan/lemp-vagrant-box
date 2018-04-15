@@ -1,0 +1,7 @@
+---
+- name: Configure LEMP server
+  hosts: lemp
+  roles:
+    - mariadb
+    - php
+    - nginx

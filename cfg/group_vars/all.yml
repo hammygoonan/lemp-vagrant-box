@@ -1,0 +1,10 @@
+---
+mysql_root_password:    'root'
+mysql_bind_address:     '0.0.0.0'
+mysql_db_user:          'wp'
+mysql_db_password:      'wp'
+site_name:              'vagrantvm.local'
+mysql_db_name:          'devdb'
+
+http_port:              80
+base_dir:               '/vagrant/www'
